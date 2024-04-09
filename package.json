@@ -1,0 +1,28 @@
+{
+    "name": "nosql-social-network-api",
+    "version": "1.0.0",
+    "description": "A highly scalable Social Network API leveraging the power of NoSQL databases with MongoDB, designed for social media startups.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kykesh/NoSQL-Social-Network-API.git"
+    },
+    "author": "Kyle Huff",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kykesh/NoSQL-Social-Network-API/issues"
+    },
+    "homepage": "https://github.com/Kykesh/NoSQL-Social-Network-API#readme",
+    "dependencies": {
+        "dayjs": "^1.11.10",
+        "express": "^4.19.2",
+        "mongoose": "^5.13.22"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
